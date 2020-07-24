@@ -59,7 +59,7 @@ const sketch = ({ context }) => {
     render({ time }) {
       controls.update();
       renderer.render(scene, camera);
-      mesh.rotation.y = time * 0.1;
+      mesh.rotation.z = time * 0.5;
     },
     // Dispose of events & renderer for cleaner hot-reloading
     unload() {
