@@ -1,8 +1,8 @@
 {
-  "name": "genart",
+  "name": "shaders",
   "version": "1.0.0",
   "description": "",
-  "main": "sketch.js",
+  "main": "shader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bezier-easing": "^2.1.0",
     "canvas-sketch": "^0.7.3",
     "canvas-sketch-util": "^1.10.0",
-    "eases": "^1.0.8",
-    "nice-color-palettes": "^3.0.0",
-    "three": "^0.118.3"
+    "glsl-hsl2rgb": "^1.1.0",
+    "glsl-noise": "0.0.0"
   }
 }
